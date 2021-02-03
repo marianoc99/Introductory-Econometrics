@@ -4,9 +4,8 @@ COMPUTER EXERCISES (PAGE 63)
 # of plans
 
 ls()
-setwd("C:/Users/carmo/OneDrive/Escritorio/S/Introductory Econometrics/Chapter 2")
 library(haven)
-dataset_1 <- read_dta("C:/Users/carmo/OneDrive/Escritorio/S/Stata data sets/401K.DTA")
+dataset_1 <- read_dta("~/401K.DTA")
 View(dataset_1)
 
 attach(dataset_1)
@@ -61,7 +60,7 @@ summary(reg_dataset_1)
 
 #(i)Find the average salary and the average tenure in the sample.
 
-dataset_2 <- read_dta("C:/Users/carmo/OneDrive/Escritorio/S/Stata data sets/CEOSAL2.DTA")
+dataset_2 <- read_dta("~/CEOSAL2.DTA")
 View(dataset_2)
 
 detach(dataset_1)
@@ -98,7 +97,7 @@ summary(reg_dataset_2)
 #(i) Report your results in equation form along with the number of observations and R2.
 # What does the intercept in this equation mean?
 
-dataset_3 <- read_dta("C:/Users/carmo/OneDrive/Escritorio/S/Stata data sets/SLEEP75.DTA")
+dataset_3 <- read_dta("~/SLEEP75.DTA")
 View(dataset_3)
 detach(dataset_2)
 attach(dataset_3)
@@ -124,7 +123,7 @@ summary(reg_dataset_3)
 # What is the sample standard deviation of IQ?
   
 library(haven)
-dataset_4 <- read_dta("C:/Users/carmo/OneDrive/Escritorio/S/Stata data sets/WAGE2.DTA")
+dataset_4 <- read_dta("~/WAGE2.DTA")
 View(dataset_4)
 detach(dataset_3)
 attach(dataset_4)
@@ -169,7 +168,7 @@ summary(lm(lwage~IQ,data=dataset_4))
 #(ii) Write out the estimated equation in the usual form. What is the estimated 
 # elasticity of rd with respect to sales? Explain in words what this elasticity means.
 library(haven)
-dataset_5 <- read_dta("C:/Users/carmo/OneDrive/Escritorio/S/Stata data sets/RDCHEM.DTA")
+dataset_5 <- read_dta("~/RDCHEM.DTA")
 View(dataset_5)
 detach(dataset_4)
 attach(dataset_5)
@@ -196,7 +195,7 @@ summary(lm(lrd~lsales,data=dataset_5))
 # Report the estimated equation in the usual way, including the sample size and R-squared.
 
 library(haven)
-dataset_6 <- read_dta("C:/Users/carmo/OneDrive/Escritorio/S/Stata data sets/MEAP93.DTA")
+dataset_6 <- read_dta("~/MEAP93.DTA")
 View(dataset_6)
 detach(dataset_5)
 attach(dataset_6)
