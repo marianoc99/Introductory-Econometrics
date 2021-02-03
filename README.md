@@ -1,4 +1,6 @@
-# Instrumental Variables
-Given the following model:
+# Introductory Econometrics
+Implementations of (Computer) Exercises from Wooldridge's Introductory Econometrics (6th Ed.) with R-Studio.
 
-# log(salary)=β0+β1educ+β2log(salbegin)+β3male+β4minority+u
+* Chapter 1
+* Chapter 2
+* Chapter 3
