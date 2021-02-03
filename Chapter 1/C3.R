@@ -1,7 +1,7 @@
 #COMPUTER EXERCISES (PAGE 18)
 
 (C3)(i)
-load("C:/Users/carmo/OneDrive/Escritorio/S/R data sets for 5e/meap01.RData")
+load("~/meap01.RData")
 min(data$math4)
 max(data$math4)
 
