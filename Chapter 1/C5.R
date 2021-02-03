@@ -1,7 +1,7 @@
 COMPUTER EXERCISES (PAGE 19)
 
 (C5)(i)
-load("C:/Users/carmo/OneDrive/Escritorio/S/R data sets for 5e/fertil2.RData")
+load("~/fertil2.RData")
 View(data)
 summary(data$children)
 
