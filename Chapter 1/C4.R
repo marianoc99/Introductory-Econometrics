@@ -1,7 +1,7 @@
 #COMPUTER EXERCISES (PAGE 18)
 
 (C4)(i)
-load("C:/Users/carmo/OneDrive/Escritorio/S/R data sets for 5e/jtrain2.RData")
+load("~/jtrain2.RData")
 View(data)
 porcentage_train<-(sum(data$train==1))/(sum(data$train==0)+sum(data$train==1))
 porcentage_train
